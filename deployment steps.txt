@@ -1,0 +1,33 @@
+Step1- create a github repository
+step2- clone the github repository to the folder where your project is present i.e. your working directory.
+step3- to clone the repo, select the "code" option of your create github repo and copy the clone path = "https" path.
+step4- cmd--> cd "folder loaction"--> git clone "https-path"
+step5- open the cloned folder inside the vs code/pycharm
+ste6- update the readme file and see its preview
+step7- create a new environment = conda create -p "name_of_environment" python==3.7 -y
+step8- conda activate "environment_name"/
+step9- create a requirements.txt file and install it usin pip install -r requirements.txt in cmd terminal of VS code
+step10- configure the user name and email address =
+ 	git config --global user.name "Shantam Srivastava"
+	git config --global user.email "srivastavashantam@gmail.com"
+step11- git add requirements.txt and on can view the status of the repo by running git status
+step12- git add . = for adding all files to github repository
+step13- git commit -m "This commit includes requirements.txt and readme file"
+step14- git push origin main
+step15- create an app.py file and home.html page inside templates folder
+step16- try to run python app.py after saving the file 
+step17- git add . = to add all the files
+step18- git commit -m "this is the commit for web application"
+step19- git push origin main
+step20- create a "Procfile" = web: gunicorn app:app
+step21- mention it inside the requirements.txt file
+step22- git add .
+step23- git commit -m "ready for deployment"
+step24- git push origin main
+step25- create a heroku account
+step26- add a credit card to validate
+step27- create a new app
+step28- link your github with the github option of deployment and enter the password
+step29- manually deploy your project by entering the repository name.
+step30- will be deployed successfully= click view app to view = https://boston-houseprice-532a1885f0d2.herokuapp.com/
+step31- now this web address can also be used through postman.
